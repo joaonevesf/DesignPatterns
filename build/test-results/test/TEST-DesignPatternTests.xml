@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DesignPatternTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2022-11-10T16:43:46" hostname="omega" time="0.449">
+  <properties/>
+  <testcase name="happyHour()" classname="DesignPatternTests" time="0.021"/>
+  <testcase name="stringReplacer()" classname="DesignPatternTests" time="0.002"/>
+  <testcase name="impatientStrategy()" classname="DesignPatternTests" time="0.002"/>
+  <testcase name="transformUndo()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="stringDrink()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="removeObserver()" classname="DesignPatternTests" time="0.385"/>
+  <testcase name="smartStrategyStartClosed()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="stringInverter()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="smartStrategyStartOpened()" classname="DesignPatternTests" time="0.0"/>
+  <testcase name="addObserver()" classname="DesignPatternTests" time="0.011"/>
+  <testcase name="orderStringRecipe()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="transformerComposite()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="stringRecipe()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="ferengiStartClosed()" classname="DesignPatternTests" time="0.002"/>
+  <testcase name="ferengiAlreadyOpened()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="romulan()" classname="DesignPatternTests" time="0.001"/>
+  <testcase name="stringCaseChanger()" classname="DesignPatternTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
