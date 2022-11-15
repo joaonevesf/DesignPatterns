@@ -4,8 +4,8 @@ public class SmartStrategy implements OrderingStrategy{
 
     boolean started;
     boolean ended;
-    StringDrink drink;
-    StringRecipe recipe;
+    StringDrink drink = null;
+    StringRecipe recipe = null;
     public SmartStrategy() {
         started = false;
         ended = false;
@@ -15,19 +15,15 @@ public class SmartStrategy implements OrderingStrategy{
         this.drink = drink;
         this.recipe = recipe;
         if (bar.isHappyHour()) {
-            order(bar);
+            bar.order(this.drink,this.recipe);
         }
-    }
-
-    public void order(StringBar bar) {
-        bar.order(drink,recipe);
     }
 
     @Override
     public void happyHourStarted(StringBar bar) {
         started = true;
-        if (!drink.getText().equals("")) {
-            order(bar);
+        if (drink != null) {
+            bar.order(drink,recipe);
         }
     }
 
